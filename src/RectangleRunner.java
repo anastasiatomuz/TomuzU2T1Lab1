@@ -16,5 +16,10 @@ public class RectangleRunner {
         rect2.printPerimeter();
         rect3.printPerimeter();
 
+        if (rect1.returnLength() < rect2.returnLength()){
+            System.out.println("The length of rectangle 1 is smaller than of rectangle 2");
+        }else{
+            System.out.println("The length of rectangle 1 is larger than of rectangle 2");
+        }
     }
 }

@@ -23,6 +23,10 @@ public class Rectangle {
         int perimeter = 2 * width + 2* length;
         System.out.println("My perimeter is " + perimeter);
     }
+
+    public int returnLength(){
+        return length;
+    }
 }
 
 
